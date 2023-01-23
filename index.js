@@ -55,6 +55,8 @@ function DisplayTodos() {
     span.classList.add("bubble");
     if (todo.category == "personal") {
       span.classList.add("personal");
+    } else if (todo.category == "partner") {
+      span.classList.add("partner");
     } else {
       span.classList.add("business");
     }
